@@ -1,0 +1,9 @@
+name: how_to_pass_data
+description: A sample application
+dependencies:
+  fancy_syntax: any
+  polymer: any
+
+#dependencies:
+#  js: any
+#  unittest: any

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>index</title>
+    <link rel="import" href="xmycomponent.html">
+  </head>
+ 
+  <body>
+    <template id="temp" bind syntax="fancy">
+      <x-my-component foo="{{20}}" bar="{{1.1}}"></x-my-component>
+    </template>
+    <script type="application/dart" src="app.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
